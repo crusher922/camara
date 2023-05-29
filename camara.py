@@ -55,7 +55,7 @@ with mp_hands.Hands(
     success, image = cap.read()
     if not success:
       print("Ignoring empty camera frame.")
-      #print("Prueba privado")
+      print("Prueba privado")
       # If loading a video, use 'break' instead of 'continue'.
       continue
 
